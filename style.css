@@ -102,6 +102,48 @@
     animation-name: bounce;
     animation-timing-function: ease-in-out;
   }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation-name: rotate;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}
   
   
   @media (min-width: 430px) {
@@ -115,4 +157,3 @@
       margin: 0 0 20px;
     }
   }
-  
